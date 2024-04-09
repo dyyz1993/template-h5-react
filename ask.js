@@ -24,5 +24,8 @@ module.exports = {
             name: 'author',
             default: 'this is author', // 默认值
         }
+    ],
+    path:[
+        'package.json'
     ]
 }
