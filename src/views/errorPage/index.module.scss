@@ -1,0 +1,18 @@
+.ErrorPage {
+  height: 100vh;
+  padding: 0 20px;
+  .button-group {
+    :global {
+      button + button {
+        margin-left: 10px;
+      }
+    }
+  }
+  .detail-error-code {
+    margin-top: 20px;
+    line-height: 1.2;
+    font-size: 12px;
+    word-break: break-all;
+    opacity: 0.2;
+  }
+}

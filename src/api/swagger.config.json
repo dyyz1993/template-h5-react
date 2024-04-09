@@ -1,0 +1,5 @@
+{
+    "docsUrl": "http://127.0.0.1:5001/swagger-ui/index.json",
+    "axiosInstanceUrl": "@/apis/index",
+    "includeTags": ["ticket-api"]
+ }

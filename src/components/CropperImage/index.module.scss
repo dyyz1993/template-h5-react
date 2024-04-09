@@ -1,0 +1,27 @@
+.cropper {
+  height: 100vh;
+  width: 100vw;
+  :global {
+    .cdm-mask-content {
+      //   height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      background-color: #fff;
+    }
+  }
+  .footer {
+    // margin-top: 20px;
+    padding: 10px 20px;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    :global {
+      button:last-child {
+        margin-left: 10px;
+      }
+    }
+  }
+}

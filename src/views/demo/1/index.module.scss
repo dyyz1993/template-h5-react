@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  .content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .input {
+    flex: 1;
+    border: 1px solid green;
+  }
+  .img-box {
+    flex: 1;
+    > svg {
+      width: 100%;
+    }
+  }
+  .tips-wrap {
+    color: red;
+  }
+}

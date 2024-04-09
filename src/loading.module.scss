@@ -1,0 +1,50 @@
+.loading-page {
+  //   position: absolute;
+  //   top: 50%;
+  //   left: 45%;
+  //   transform: translate(-50%, -50%);
+  background-color: #2a9d8f;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .progress {
+    position: relative;
+    height: 10px;
+    width: 50vw;
+    border: 10px solid #f4a261;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    .color {
+      background-color: #ffffff;
+      width: 0px;
+      height: 10px;
+      border-radius: 15px;
+      animation: progress 4s infinite linear;
+    }
+  }
+}
+
+@keyframes progress {
+  0% {
+    width: 0%;
+  }
+  25% {
+    width: 50%;
+  }
+  50% {
+    width: 75%;
+  }
+  75% {
+    width: 85%;
+  }
+  100% {
+    width: 100%;
+  }
+} ;

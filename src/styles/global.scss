@@ -1,0 +1,132 @@
+@import '~@csstools/normalize.css';
+
+body {
+  color: #fff;
+  background: linear-gradient(180deg, #111218 0%, #2c313f 100%) !important;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+    'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  line-height: 1;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*:after {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+p {
+  margin: 0;
+}
+
+ol,
+ul,
+li,
+dl,
+dt,
+dd {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+input {
+  outline: none;
+
+  // input number 增减按钮
+  &::-webkit-inner-spin-button {
+    display: none;
+  }
+}
+
+:root:root {
+  --cdm-navBar-background-color: #0b0e15;
+  --cdm-navBar-text-color: #fff;
+  --cdm-price-text-color: #ffdc7a;
+  --cdm-color-background: #0b0e15;
+  --cdm-color-text-1: #fff;
+  --cdm-color-text-2: #666666;
+  --cdm-color-divider-1: #222;
+  --cdm-button-background-color: #222;
+  --cdm-button-border-color: #444;
+  --cdm-button-text-color: #999999;
+  // --cdm-tabs-header-background-color: transparent;
+  --cdm-tabs-header-background-color: #0b0e15;
+  --cdm-button-mini-font-size: 12px;
+  --cdm-color-text-1: #eee;
+  // color: transparent;
+  // color: #999999;
+  --cdm-vertical-max-height: 80vh;
+  --cdm-vertical-min-height: 50vh;
+  --cdm-button-mini-padding: 4px 8px;
+  --cdm-button-min-width: 40px;
+  --cdm-color-main-1: #4172e1;
+  --cdm-stepper-input-background-color: #161616;
+  --cdm-stepper-button-background-color: transparent;
+  --cdm-stepper-button-text-color: #d8d8d8;
+  --cdm-stepper-button-disabled-text-color: #8b8b8b;
+
+  --cdm-color-btn-dis-2: rgba(102, 102, 102, 1);
+
+  --cdm-border-color: #66666682;
+}
+html {
+  // background: #2c313f;
+  background: #111218;
+  // background: linear-gradient(180deg, #111218 0%, #2c313f 100%);
+
+  .cdm-popup-main {
+    background-color: rgba(44, 49, 63, 1);
+  }
+  .cdm-list-body {
+    background-color: rgba(22, 22, 22, 1);
+
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.13);
+  }
+  .cdm-list-header {
+    padding: 20px 10px;
+  }
+  .cdm-form-list,
+  .cdm-list-item,
+  .cdm-form-list-item {
+    background-color: transparent;
+  }
+  .cdm-form-list-item-content-prefix {
+    flex: none;
+  }
+  // .cdm-form-list-item-content-main {
+  //   flex: none !important;
+  // }
+  .cdm-dialog-mask .cdm-dialog-main {
+    background-color: rgba(44, 49, 63, 1);
+  }
+  .cdm-tabs-header {
+    border-bottom-width: 2px;
+  }
+  .cdm-input {
+    // --background-color: rgb(44, 49, 63);
+    // input:-webkit-autofill {
+    //   -webkit-text-fill-color: transparent !important;
+    // }
+  }
+}
+
+.link-color {
+  color: #91b3f7;
+}

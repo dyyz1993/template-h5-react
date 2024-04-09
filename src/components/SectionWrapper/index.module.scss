@@ -1,0 +1,27 @@
+.section-wrapper {
+  background: #191c23;
+  border-radius: 8px;
+  padding: 20px 16px;
+  margin-top: 20px;
+  font-size: 14px;
+  .header-title {
+    font-size: 13px;
+    color: #666;
+    margin-bottom: 16px;
+  }
+  .list-item-kv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+    font-size: 12px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+    .title {
+      color: #666666;
+    }
+    .value {
+    }
+  }
+}

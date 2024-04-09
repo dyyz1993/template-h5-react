@@ -1,0 +1,68 @@
+{
+  // 图片预览
+  "gutterpreview.paths": {
+    "@": "src",
+    "~@": "src"
+  },
+
+  // 引入不同后缀文件时的路径提示, 用于定义绝对或相对路径的别名
+  "path-autocomplete.pathMappings": {
+    "@": "${folder}/src",
+    "~@": "${folder}/src"
+  },
+
+  // 在插入文件名时也会附加扩展名
+  "path-autocomplete.includeExtension": true,
+
+  // 在将文件名插入 import or require 语句时也会附加扩展名
+  "path-autocomplete.extensionOnImport": true,
+
+  // 待办事项插件
+  "todo-tree.filtering.excludeGlobs": ["**/node_modules/**/*", "**/rpf/**/*"],
+
+  "files.associations": {
+    ".env.*": "properties"
+  },
+  "[typescript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "cSpell.userWords": [
+    "Tlor",
+    "doctest",
+    "reactdom"
+  ],
+  "notebook.formatOnSave.enabled": true,
+  "cSpell.words": [
+    "Qrcode",
+    "Swiper"
+  ],
+  "liveServer.settings.port": 5501
+  // "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // // 保存时 prettier 自动格式化
+  // "editor.formatOnSave": true,
+  // // 保存时自动启用 eslint --fix 自动修复
+  // "editor.codeActionsOnSave": {
+  //   "source.fixAll": true
+  // }
+}
